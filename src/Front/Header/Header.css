@@ -1,0 +1,35 @@
+.header {
+    background-color: #2F4F4F;
+    color: white;
+    padding: 2px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+   
+}
+
+.logo a,
+.logo h1 {
+    color: #FFFFFF !important; 
+    text-decoration: none;
+    font-size: 1.8rem; 
+    font-weight: bold;
+    margin: 0; 
+}
+
+.header-links ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.cart-link {
+    display: flex;
+    align-items: center;
+    font-size: 1.1rem;
+}
+
+.fas {
+    font-size: 1.3rem;
+    margin-right: 5px;
+}
